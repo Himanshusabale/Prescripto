@@ -104,7 +104,7 @@ const AdminContextProvider = (props) => {
       toast.error(error);
     }
   };
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = "https://prescripto-backend-xqw2.onrender.com";
   const value = {
     aToken,
     setAToken,
